@@ -1,0 +1,28 @@
+Types:
+Unary
+    num++
+    S++
+    num--
+    +66
+Binary
+    10-5
+    5*3
+
+Ternary
+    ISEven ? even"odd
+
+--------------
+Tyoeof Operation
+1. Arithmetic
+
+
+2. Relational
+    >
+    >>
+    <
+    <<
+
+3. Logical
+
+
+4. Bitwise
