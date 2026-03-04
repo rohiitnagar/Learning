@@ -2,7 +2,7 @@ package java_lang_object_class;
 
 import java.util.Objects;
 
-public class Person {
+public class Person implements Cloneable{
 
         private String name;
         private int age;
@@ -65,4 +65,20 @@ public class Person {
         return age== person.getAge() && gender== person.getGender()
                 && ssn== person.getSsn() && name.equals(person.name);
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", ssn=" + ssn +
+                '}';
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
 }

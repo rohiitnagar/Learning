@@ -7,5 +7,7 @@ public class HashCodeEquals {
         System.out.println(p2.hashCode());
         System.out.println(p1.hashCode());
         System.out.println(p2.equals(p1));
+        System.out.println(p1);
+        System.out.println(p2);
     }
 }
