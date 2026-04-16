@@ -9,7 +9,7 @@ public class InstanceMethodReference {
         };
         operation.performOperation(2,3);
 
-        //USing method references gere
+        //USing method references gerefd
         InstanceMethodReference instanceMethodReferences = new InstanceMethodReference();
         ArithmeticExpressions methodReference = instanceMethodReferences::performAddition;
         methodReference.performOperation(2,3);
